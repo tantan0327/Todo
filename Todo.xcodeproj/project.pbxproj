@@ -14,6 +14,7 @@
 		FFE05F18268DFF22002EE702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE05F17268DFF22002EE702 /* Assets.xcassets */; };
 		FFE05F1B268DFF22002EE702 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE05F1A268DFF22002EE702 /* Preview Assets.xcassets */; };
 		FFE05F1E268DFF22002EE702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE05F1C268DFF22002EE702 /* LaunchScreen.storyboard */; };
+		FFE05F26268F5BDB002EE702 /* CategoryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE05F25268F5BDB002EE702 /* CategoryImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FFE05F1A268DFF22002EE702 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FFE05F1D268DFF22002EE702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFE05F1F268DFF22002EE702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE05F25268F5BDB002EE702 /* CategoryImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				FFE05F0E268DFF1D002EE702 /* AppDelegate.swift */,
 				FFE05F10268DFF1D002EE702 /* SceneDelegate.swift */,
 				FFE05F12268DFF1D002EE702 /* ContentView.swift */,
+				FFE05F25268F5BDB002EE702 /* CategoryImage.swift */,
 				FFE05F17268DFF22002EE702 /* Assets.xcassets */,
 				FFE05F1C268DFF22002EE702 /* LaunchScreen.storyboard */,
 				FFE05F1F268DFF22002EE702 /* Info.plist */,
@@ -151,6 +154,7 @@
 				FFE05F0F268DFF1D002EE702 /* AppDelegate.swift in Sources */,
 				FFE05F11268DFF1D002EE702 /* SceneDelegate.swift in Sources */,
 				FFE05F13268DFF1D002EE702 /* ContentView.swift in Sources */,
+				FFE05F26268F5BDB002EE702 /* CategoryImage.swift in Sources */,
 				FFE05F16268DFF1D002EE702 /* Todo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
