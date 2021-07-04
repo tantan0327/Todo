@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FFC66C4E2690A51A0009FAB9 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC66C4D2690A51A0009FAB9 /* CheckBox.swift */; };
+		FFC66C5126917A6C0009FAB9 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC66C5026917A6C0009FAB9 /* Color+Extension.swift */; };
+		FFC66C5326917B200009FAB9 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC66C5226917B200009FAB9 /* UserView.swift */; };
 		FFE05F0F268DFF1D002EE702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE05F0E268DFF1D002EE702 /* AppDelegate.swift */; };
 		FFE05F11268DFF1D002EE702 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE05F10268DFF1D002EE702 /* SceneDelegate.swift */; };
 		FFE05F13268DFF1D002EE702 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE05F12268DFF1D002EE702 /* ContentView.swift */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		FFC66C4D2690A51A0009FAB9 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		FFC66C5026917A6C0009FAB9 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		FFC66C5226917B200009FAB9 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		FFE05F0B268DFF1D002EE702 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE05F0E268DFF1D002EE702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFE05F10268DFF1D002EE702 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FFC66C4F26917A2F0009FAB9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FFC66C5026917A6C0009FAB9 /* Color+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		FFE05F02268DFF1D002EE702 = {
 			isa = PBXGroup;
 			children = (
@@ -62,11 +74,13 @@
 		FFE05F0D268DFF1D002EE702 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				FFC66C4F26917A2F0009FAB9 /* Extension */,
 				FFE05F0E268DFF1D002EE702 /* AppDelegate.swift */,
 				FFE05F10268DFF1D002EE702 /* SceneDelegate.swift */,
 				FFE05F12268DFF1D002EE702 /* ContentView.swift */,
 				FFE05F25268F5BDB002EE702 /* CategoryImage.swift */,
 				FFC66C4D2690A51A0009FAB9 /* CheckBox.swift */,
+				FFC66C5226917B200009FAB9 /* UserView.swift */,
 				FFE05F17268DFF22002EE702 /* Assets.xcassets */,
 				FFE05F1C268DFF22002EE702 /* LaunchScreen.storyboard */,
 				FFE05F1F268DFF22002EE702 /* Info.plist */,
@@ -155,7 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFE05F0F268DFF1D002EE702 /* AppDelegate.swift in Sources */,
+				FFC66C5126917A6C0009FAB9 /* Color+Extension.swift in Sources */,
 				FFE05F11268DFF1D002EE702 /* SceneDelegate.swift in Sources */,
+				FFC66C5326917B200009FAB9 /* UserView.swift in Sources */,
 				FFC66C4E2690A51A0009FAB9 /* CheckBox.swift in Sources */,
 				FFE05F13268DFF1D002EE702 /* ContentView.swift in Sources */,
 				FFE05F26268F5BDB002EE702 /* CategoryImage.swift in Sources */,
