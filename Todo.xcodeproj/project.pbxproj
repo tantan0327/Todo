@@ -20,6 +20,7 @@
 		FFE05F1E268DFF22002EE702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE05F1C268DFF22002EE702 /* LaunchScreen.storyboard */; };
 		FFE05F26268F5BDB002EE702 /* CategoryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE05F25268F5BDB002EE702 /* CategoryImage.swift */; };
 		FFF04E7126DD333300388DD2 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF04E7026DD333300388DD2 /* CategoryView.swift */; };
+		FFF04E7326DF9C8600388DD2 /* QuickNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF04E7226DF9C8600388DD2 /* QuickNewTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		FFE05F1F268DFF22002EE702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFE05F25268F5BDB002EE702 /* CategoryImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImage.swift; sourceTree = "<group>"; };
 		FFF04E7026DD333300388DD2 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		FFF04E7226DF9C8600388DD2 /* QuickNewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickNewTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				FFC66C4D2690A51A0009FAB9 /* CheckBox.swift */,
 				FFC66C5226917B200009FAB9 /* UserView.swift */,
 				FFF04E7026DD333300388DD2 /* CategoryView.swift */,
+				FFF04E7226DF9C8600388DD2 /* QuickNewTask.swift */,
 				FFE05F17268DFF22002EE702 /* Assets.xcassets */,
 				FFE05F1C268DFF22002EE702 /* LaunchScreen.storyboard */,
 				FFE05F1F268DFF22002EE702 /* Info.plist */,
@@ -175,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFE05F0F268DFF1D002EE702 /* AppDelegate.swift in Sources */,
+				FFF04E7326DF9C8600388DD2 /* QuickNewTask.swift in Sources */,
 				FFC66C5126917A6C0009FAB9 /* Color+Extension.swift in Sources */,
 				FFE05F11268DFF1D002EE702 /* SceneDelegate.swift in Sources */,
 				FFC66C5326917B200009FAB9 /* UserView.swift in Sources */,
